@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{amsmath}
+\begin{document}
+\title {HOMEWORK 9}
+\maketitle
+\begin{figure}
+\centering
+\includegraphics[scale=0.4]
+{robot-4.jpg}
+\caption{robot}
+\end{figure}
+\section{Table}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{name}&\textbf{family}&\textbf{id}\\
+\hline
+reihaneh&qorbani&96440141\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\section{Formula}
+\(logxy=log x=log y\)
+\section{Text}
+A robot is a machine _especially one programmable by a computer.
+Robots may be constructed on the  lines of human form\\
+\section{Code}
+(To be complete or not)\\
+\begin{lstlisting}[language=c++]
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+int a,b;
+cin>>a>>b;
+cout<<a+b;
+getch();
+return 0;
+}
+\end{lstlisting}
+\end{document}
